@@ -1,0 +1,32 @@
+
+<ion-view>
+    <ion-nav-bar>
+        <ion-nav-title>
+                <h1 class="title" style="text-align: left; color:white;">Informasi dan Berita</h1>
+            <button class="button" ng-click="doBack()">
+                <i class="ion-chevron-left"></i> &nbsp; &nbsp; Kembali
+            </button>
+        </ion-nav-title>
+    </ion-nav-bar>
+    <ion-content>
+        <center>
+            <div class="center boxMenu">
+                <ul class="list">
+                    <li class="item item-header">
+                        <h2>Informasi dan Berita</h2>
+                        <hr class="hr-header">
+                        <label>Informasi dan berita tentang kegiatan sekolah</label>
+                    </li>
+                    <li class="item" ng-repeat="p in posts">
+                        <a href="#/news/detailnews/{{ p.id }}" class="text-black">
+                            <p class="text-left">
+                                <strong>{{ p.title.rendered }}</strong><br>
+                                <small>{{ p.date | date : "dd MMM y" }}</small>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </center>
+    </ion-content>
+</ion-view>
