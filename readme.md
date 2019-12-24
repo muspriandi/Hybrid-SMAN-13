@@ -7,16 +7,16 @@ Tools App:
 
 Tested on Xiaomi Redmi Note 5A (Nougat)
 
-API file & database :
+API file & database :<br>
 GitHub : https://github.com/muspriandi/Hybrid-SMAN-13/tree/api
 
-Demo App:
+Demo App:<br>
 Youtube : https://www.youtube.com/watch?v=eRTP_RYeltY
 
 ===============================================================
 
-#Dokumentasi Aplikasi Mobile Tugas UAS
-NIM            : 1711501559
-Nama           : Mus Priandi
-Mata Kuliah    : Mobile Programming
+# Dokumentasi Aplikasi Mobile Tugas UAS<br>
+NIM            : 1711501559<br>
+Nama           : Mus Priandi<br>
+Mata Kuliah    : Mobile Programming<br>
 Kelompok       : KU
