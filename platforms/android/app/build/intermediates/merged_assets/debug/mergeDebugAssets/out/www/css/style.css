@@ -20,6 +20,7 @@ h1 {
 .boxMenu {
 	background-color: transparent;
 	width: 88%;
+    background: white;
 	overflow: hidden;
 	margin-top: 15px;
 	margin-bottom: 18px;
@@ -107,10 +108,10 @@ small {
 	transition: 0.3s;
 }
 ul:hover .listGaleri {
-	width: 10%;
+	width: 15%;
 }
 .galeri li:hover {
-	width: 70%;
+	width: 55%;
 }
 .galeri .listGaleri:hover {
 	bottom: 0;
@@ -199,10 +200,10 @@ ul:hover .listGaleri2 {
 	transition: 0.3s;
 }
 ul:hover .listGaleri3 {
-	width: 10%;
+	width: 15%;
 }
 .galeri3 li:hover {
-	width: 70%;
+	width: 55%;
 }
 .galeri3 .listGaleri3:hover {
 	bottom: 0;
@@ -223,4 +224,59 @@ ul:hover .listGaleri3 {
 .galeri3 .listGaleri3:nth-child(4) {
 	background: url(../img/fasilitas\(10\).jpg); 
 	background-size: cover;
+}
+
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    margin: 8px 0px;
+}
+
+.hr-sect::before,
+.hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 8px;
+}
+
+.boxHover:hover {
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+
+.bgHover:hover {
+	transition: 0.5s;
+	background-color: rgba(0, 0, 0, 0.08);
+}
+
+.iconFloat {
+	display: block;
+	background-color: lightgreen;
+    color: white;
+	font-size: 37px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 23px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 8px 0 rgba(0, 0, 0, 0.3);
+	z-index: 3;
+	transition: ease all 0.5s;
+}
+
+.iconFloat:hover {
+	color: white;
+	background-color: lightblue;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 8px 0 rgba(0, 0, 0, 0.3);
 }

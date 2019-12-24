@@ -2,7 +2,7 @@
 <widget id="com.ionicframework.ubl199960" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>SMAN 13</name>
   <description>SMA Negeri 13 </description>
-  <author email="rizkiyogasetiawan.rys@gmail.com" href="http://ionicframework.com/">Rizki Yoga Setiawan</author>
+  <author email="1.muspriandi@gmail.com" href="http://ionicframework.com/">Mus Priandi</author>
   <content src="index.html"/>
   <access origin="*"/>
   <allow-navigation href="http://ionic.local/*"/>

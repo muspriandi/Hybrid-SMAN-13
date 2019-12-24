@@ -1,10 +1,10 @@
 <ion-view>
     <ion-nav-bar>
-        <ion-nav-title>
-                <h1 class="title" style="text-align: left; color:white;">Fasilitas dan Eskul</h1>
-            <button class="button" ng-click="doBack()">
-                <i class="ion-chevron-left"></i> &nbsp; &nbsp; Kembali
-            </button>
+        <ion-nav-title><ion-header-bar>
+                <button class="button button-clear ion-chevron-left"  ng-click="doBack()" style="color: white; padding-left: 5px;">
+                </button>
+                <h1 class="title">Fasilitas dan Eskul</h1>
+            </ion-header-bar>
         </ion-nav-title>
     </ion-nav-bar>
     <ion-content>
@@ -12,20 +12,21 @@
             <div class="center boxMenu">
             <ul class="list">
                 <li class="item item-header">
-                    <h2>Fasilitas dan Eskul</b></h2>
+                    <h2>Fasilitas dan Eskul</h2>
                     <hr class="hr-header">
                     <label>Fasilitas dan Ekstrakurikuler Sekolah</label>
                 </li>
                 <li class="item">
-                    <img src="img/fasilitas.jpg" alt="Fasilitas" width="23%" height="65px;">
-                    <img src="img/fasilitas(1).jpg" alt="Fasilitas" width="23%" height="65px;">
-                    <img src="img/fasilitas(2).jpg" alt="Fasilitas" width="23%" height="65px;">
-                    <img src="img/fasilitas(3).jpg" alt="Fasilitas" width="23%" height="65px;">
-                    <br><br>
+                    <div style="display: grid; position: absolute; top: 35px; right: 18px;">
+                        <img src="img/fasilitas.jpg" alt="Fasilitas" width="75px" height="75px" style="padding-bottom: 8px;">
+                        <img src="img/fasilitas(1).jpg" alt="Fasilitas" width="75px" height="75px" style="padding-bottom: 8px;">
+                        <img src="img/fasilitas(2).jpg" alt="Fasilitas" width="75px" height="75px" style="padding-bottom: 8px;">
+                        <img src="img/fasilitas(3).jpg" alt="Fasilitas" width="75px" height="75px" style="padding-bottom: 8px;">
+                    </div>
                     <table width="100%">
                         <tr>
                             <td>
-                                <strong>FASILITAS</strong>
+                                <strong><i class="ion-ios-home" style="font-size: 20px"></i> Fasilitas</strong>
                                 <ul class="list-fasilitas">
                                     <li><p>Gedung Sekolah 3 Tingkat</p></li>
                                     <li><p>26 Ruang Belajar</p></li>
@@ -55,7 +56,13 @@
                         </tr>
                             <td>
                                 <br>
-                                <strong>EKSTRAKURIKULER</strong>
+                                <div style="display: grid; position: absolute; top: 520px; right: 18px;">
+                                    <img src="img/eskul.jpg" alt="Fasilitas" width="75px" height="75px" style="padding-bottom: 8px;">
+                                    <img src="img/eskul(1).jpg" alt="Fasilitas" width="75px" height="75px" style="padding-bottom: 8px;">
+                                    <img src="img/eskul(2).jpg" alt="Fasilitas" width="75px" height="75px" style="padding-bottom: 8px;">
+                                    <img src="img/eskul(3).jpg" alt="Fasilitas" width="75px" height="75px" style="padding-bottom: 8px;">
+                                </div>
+                                <strong><i class="ion-help-buoy" style="font-size: 20px"></i> Ekstrakurikuler</strong>
                                 <ul class="list-fasilitas">
                                     <li><p>Pramuka</p></li>
                                     <li><p>Vokal Grup</p></li>
@@ -80,7 +87,7 @@
                         </tr>
                             <td>
                                 <br>
-                                <strong>KEGIATAN KEAGAMAAN</strong>
+                                <strong><i class="ion-android-hand" style="font-size: 20px"></i> Kegiatan Keagamaan</strong>
                                 <ul class="list-fasilitas">
                                     <li><p>Sie Rohani Islam</p></li>
                                     <li><p>Muda-mudi Katolik</p></li>

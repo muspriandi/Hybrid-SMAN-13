@@ -1,35 +1,56 @@
 {
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-device@1.1.4",
+        "scope": null,
+        "escapedName": "cordova-plugin-device",
+        "name": "cordova-plugin-device",
+        "rawSpec": "1.1.4",
+        "spec": "1.1.4",
+        "type": "version"
+      },
+      "D:\\SMAN13\\myapp"
+    ]
+  ],
   "_from": "cordova-plugin-device@1.1.4",
   "_id": "cordova-plugin-device@1.1.4",
-  "_inBundle": false,
-  "_integrity": "sha1-1f50cSBp0D9tOG7wvTIbOr0NONw=",
+  "_inCache": true,
   "_location": "/cordova-plugin-device",
+  "_nodeVersion": "6.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-device-1.1.4.tgz_1481568063967_0.07361319195479155"
+  },
+  "_npmUser": {
+    "name": "shazron",
+    "email": "shazron@gmail.com"
+  },
+  "_npmVersion": "3.10.9",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
-    "registry": true,
     "raw": "cordova-plugin-device@1.1.4",
-    "name": "cordova-plugin-device",
+    "scope": null,
     "escapedName": "cordova-plugin-device",
+    "name": "cordova-plugin-device",
     "rawSpec": "1.1.4",
-    "saveSpec": null,
-    "fetchSpec": "1.1.4"
+    "spec": "1.1.4",
+    "type": "version"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "#USER"
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-device/-/cordova-plugin-device-1.1.4.tgz",
   "_shasum": "d5fe74712069d03f6d386ef0bd321b3abd0d38dc",
+  "_shrinkwrap": null,
   "_spec": "cordova-plugin-device@1.1.4",
-  "_where": "C:\\Users\\Fauzan Ramadhan\\ubl",
+  "_where": "D:\\SMAN13\\myapp",
   "author": {
     "name": "Apache Software Foundation"
   },
   "bugs": {
     "url": "https://github.com/apache/cordova-plugin-device/issues"
   },
-  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-device",
     "platforms": [
@@ -48,10 +69,15 @@
       "osx"
     ]
   },
-  "deprecated": false,
+  "dependencies": {},
   "description": "Cordova Device Plugin",
   "devDependencies": {
     "jshint": "^2.6.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "d5fe74712069d03f6d386ef0bd321b3abd0d38dc",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-device/-/cordova-plugin-device-1.1.4.tgz"
   },
   "engines": {
     "cordovaDependencies": {
@@ -80,7 +106,23 @@
     "cordova-osx"
   ],
   "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "csantanapr",
+      "email": "csantana23@gmail.com"
+    },
+    {
+      "name": "shazron",
+      "email": "shazron@gmail.com"
+    },
+    {
+      "name": "stevegill",
+      "email": "stevengill97@gmail.com"
+    }
+  ],
   "name": "cordova-plugin-device",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apache/cordova-plugin-device.git"
