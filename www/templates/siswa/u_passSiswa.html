@@ -1,0 +1,50 @@
+<ion-view cache-view="false" hide-nav-bar="true">
+    <ion-header-bar>
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left" style="color: white;">
+        </button>
+        <h1 class="title" style="color:white;">
+           Ubah Kata Sandi
+        </h1>
+    </ion-header-bar>
+
+    <ion-content>
+        <center>
+            <div class="hr-sect" style="margin-left: 15px; margin-right: 15px;">
+                <h4>Ubah Kata Sandi</h4>
+            </div>
+            <div class="boxMenu text-left" style="margin-top: 0px;">
+                <ul class="list">
+                    <li class="item text-left">
+                        <form ng-submit="updatePass()" style="color:black;">
+                            <div class="item-stacked-label list list-inset" style="margin: 5px 15px">
+                                <label class="input-label placeholder-icon" style="width: 200px; padding-left: 15px;"><small style="font-weight: normal;">Kata Sandi Lama :</small style="font-weight: normal;"></label>
+                                <div class="item item-input" style="border: 1px solid lightgray; border-radius: 5px;">
+                                    <i class="ion-ios-locked placeholder-icon" style="padding-right: 10px; padding-bottom: 3px;"></i>
+                                    <input type="password" ng-model="data.userPassLama" placeholder="Kata Sandi Lama">
+                                </div>
+                            </div>
+                            <div class="item-stacked-label list list-inset" style="margin: 5px 15px">
+                                <label class="input-label placeholder-icon" style="width: 200px; padding-left: 15px;"><small style="font-weight: normal;">Kata Sandi Baru :</small></label>
+                                <div class="item item-input" style="border: 1px solid lightgray; border-radius: 5px;">
+                                    <i class="ion-locked placeholder-icon" style="padding-right: 10px; padding-bottom: 3px;"></i>
+                                    <input type="password" ng-model="data.userPassBaru" placeholder="Kata Sandi Baru">
+                                </div>
+                            </div>
+                            <div class="item-stacked-label list list-inset" style="margin: 5px 15px">
+                                <label class="input-label placeholder-icon" style="width: 200px; padding-left: 15px;"><small style="font-weight: normal;">Konfirmasi Kata Sandi Baru :</small></label>
+                                <div class="item item-input" style="border: 1px solid lightgray; border-radius: 5px;">
+                                    <i class="ion-locked placeholder-icon" style="padding-right: 10px; padding-bottom: 3px;"></i>
+                                    <input type="password" ng-model="data.cUserPassBaru" placeholder="Konfirmasi Kata Sandi Baru">
+                                </div>
+                            </div>
+
+                            <div style="margin:25px 10%;">
+                                <button type="submit" class="button button-block button-positive">Ubah &nbsp; <i class="ion-android-send" style="font-size: 20px"></i></button>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </center>
+    </ion-content>
+</ion-view>

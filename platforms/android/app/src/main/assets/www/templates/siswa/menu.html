@@ -1,0 +1,38 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button></ion-nav-back-button>
+    
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left" style="color: white;">
+                </button>
+                <h1 class="title" style="color:white;">
+                    SMA Negeri 13 Jakarta
+                </h1>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContentSiswa"></ion-nav-view>
+    </ion-side-menu-content>
+    
+    <ion-side-menu side="left">
+        <ion-header-bar class="bar-stable">
+            <h1 class="title" style="color: white;">Menu</h1>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                <ion-item menu-close href="#/siswa/home">
+                    <i class="ion-ios-home" style="font-size: 28px;"></i> <strong style="position: relative; bottom: 3px; left: 10px;">Dashboard</strong>
+                </ion-item>
+                <ion-item menu-close href="#/siswa/u_passSiswa">
+                    <i class="ion-ios-locked" style="font-size: 28px;"></i> <strong style="position: relative; bottom: 3px; left: 10px;">Ubah Kata Sandi</strong>
+                </ion-item>
+                <ion-item menu-close href="#/siswa/raporSiswa">
+                    <i class="ion-ios-bookmarks" style="font-size: 28px;"></i> <strong style="position: relative; bottom: 3px; left: 14px;">Rapor</strong>
+                </ion-item>
+                <ion-item menu-close ng-controller="LoginCtrl" ng-click="doLogout()">
+                    <i class="ion-log-out" style="font-size: 28px;"></i> <strong style="position: relative; bottom: 3px; left: 10px;">Keluar</strong>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>  

@@ -1,0 +1,31 @@
+<ion-view cache-view="false" hide-nav-bar="true">
+    <ion-header-bar>
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left" style="color: white;">
+        </button>
+        <h1 class="title" style="color:white;">
+           Data Mata Pelajaran
+        </h1>
+    </ion-header-bar>
+
+    <ion-content>
+        <center>
+            <div class="hr-sect" style="margin-left: 15px; margin-right: 15px;">
+                <h4>Data Mata Pelajaran</h4>
+            </div>
+            <div class="boxMenu text-left" style="margin-top: 0px;">
+                <ion-list ng-controller="DataMapelCtrl">
+                    <ion-item class="item" ng-repeat="x in listMapel" href="#/admin/u_mapel/{{x.kdmapel}}">
+                        <div class="item-icon-left">
+                            <i class="icon ion-clipboard"></i>
+                        </div>
+                        <label style="position: relative;left: 30px;">{{ x.kdmapel }} - {{ x.nama_mapel }}</label>
+                        <div class="item-icon-right">
+                            <a class="button button-icon icon ion-ios-trash" ng-click="d_mapel('{{x.kdmapel}}')"></a>
+                        </div>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </center>
+    </ion-content>
+    <a class="button iconFloat ion-android-add" href="#/admin/c_mapel"></a>
+</ion-view>
