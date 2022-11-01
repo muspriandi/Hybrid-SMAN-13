@@ -5,8 +5,8 @@
   "devDependencies": {
     "@angular/cli": "8.3.15",
     "@ionic/lab": "2.0.13",
-    "@ionic/v1-toolkit": "2.0.13",
-    "gulp": "^3.5.6",
+    "@ionic/v1-toolkit": "3.2.20",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^3.1.0"
